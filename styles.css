@@ -80,6 +80,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
+    border: 2px solid var(--color-neutral-black);
 }
 
 .banner {
