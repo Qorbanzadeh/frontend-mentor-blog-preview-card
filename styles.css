@@ -71,7 +71,7 @@ body {
 .card {
     text-align: left;
     background: var(--color-neutral-white);
-    max-width: 350px;
+    max-width: 400px;
     padding: 1rem;
     border-radius: 1.5rem;
     box-shadow: 10px 10px 0px var(--color-neutral-black);
