@@ -74,13 +74,13 @@ body {
     max-width: 400px;
     padding: 1rem;
     border-radius: 1.5rem;
-    box-shadow: 10px 10px 0px var(--color-neutral-black);
+    box-shadow: 6px 6px 0px var(--color-neutral-black);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
-    border: 2px solid var(--color-neutral-black);
+    border: 1px solid var(--color-neutral-black);
 }
 
 .banner {
