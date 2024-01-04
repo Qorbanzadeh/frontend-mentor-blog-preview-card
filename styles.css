@@ -88,8 +88,7 @@ body {
     width: 100%;
 }
 
-.tag,
-.date {
+.tag {
     width: 100%;
     padding: .4rem 0;
 }
@@ -103,6 +102,13 @@ body {
     font-weight: 800;
     border-radius: .3rem;
     letter-spacing: -.01rem;
+}
+
+.date {
+    margin-top: .8rem;
+    display: block;
+    font-size: .88rem;
+    width: 100%;
 }
 
 .title {
@@ -119,7 +125,10 @@ body {
 
 .description {
     color: var(--color-neutral-grey);
+    font-weight: 300;
     line-height: 1.5rem;
+    letter-spacing: .01rem;
+    margin-top: 1rem;
 }
 
 .author-info {
