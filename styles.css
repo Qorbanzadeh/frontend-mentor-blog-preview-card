@@ -64,28 +64,27 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem;
+    padding: 1rem;
     font-weight: var(--font-weight-semibold);
 }
 
 .card {
     text-align: left;
     background: var(--color-neutral-white);
-    max-width: 380px;
-    padding: 1.2rem;
-    border-radius: 1.5rem;
-    box-shadow: 6px 6px 0px var(--color-neutral-black);
+    max-width: 384px;
+    height: 522px;
+    padding: 1.4rem;
+    border-radius: 1.15rem;
+    box-shadow: 8px 8px 0px var(--color-neutral-black);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.2rem;
     border: 1px solid var(--color-neutral-black);
 }
 
 .banner {
-    border-radius: 1.2rem;
-    margin-bottom: 1rem;
+    border-radius: 10px;
     width: 100%;
 }
 
@@ -96,17 +95,26 @@ body {
 }
 
 .tag span {
-    background: var(--color-primary-yellow);
-    padding: .5rem;
+    background-color: var(--color-primary-yellow);
+    margin-top: 1.5rem;
+    padding: .3rem .8rem;
+    display: inline-block;
+    font-size: .9rem;
+    font-weight: 800;
     border-radius: .3rem;
-    font-weight: var(--font-weight-bold);
+    letter-spacing: -.01rem;
 }
 
 .title {
     font-weight: var(--font-weight-bold);
     width: 100%;
     font-size: 1.5rem;
-    margin: .5rem 0;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: var(--color-primary-yellow);
 }
 
 .description {
@@ -115,19 +123,22 @@ body {
 }
 
 .author-info {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1rem;
 }
 
 .author-info img {
-    width: 30px;
-    height: 30px;
+    width: 33px;
+    height: 33px;
 }
 
+.author-info .author {
+    margin-left: .75rem;
+    font-size: .88rem;
+}
 
 
 footer {
